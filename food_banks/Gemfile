@@ -1,0 +1,6 @@
+source 'https://rubygems'
+
+gem 'sinatra'
+gem 'pg'
+gem 'sinatra-activerecord'
+gem 'json'
