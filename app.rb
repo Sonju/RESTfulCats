@@ -19,6 +19,7 @@ end
 
 # OK, we need an API... because the internet needs us
 
+# READ
 # GET: List
 get '/api/cats' do
   Cat.all.to_json
@@ -31,7 +32,7 @@ get '/api/cats/:id' do
 
 end
 
-
+# CREATE
 post '/api/cats' do
   puts params
   Cat.create({
@@ -40,7 +41,7 @@ post '/api/cats' do
   }).to_json
 end
 
-# PATCH: Update by ID
+# PATCH: UPDATE by ID
 # you should never never ever ever
 # update the ID of a model (table row)
 patch '/api/cats/:id' do

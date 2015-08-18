@@ -44,7 +44,7 @@ ActiveRecord::Base.establish_connection(
 # update the ID of a model (table row)
 
 patch  '/api/foodbanks/:id' do
-  foodbanks_args = { :name =>[:name], :address => params[:address], :city => params[:city] }
+  foodbanks_args = { :name =>params[:name], :address => params[:address], :city => params[:city] }
 
   # this is similar to the following in rails....
   # params.require(:cat).permit(:name, :breed)
