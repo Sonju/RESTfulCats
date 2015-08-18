@@ -1,4 +1,4 @@
 require './app'
-require './Foodbank'
+require './FoodBank'
 
 run Sinatra::Application

@@ -1,6 +1,10 @@
 source 'http://rubygems.org'
 
+# framework
 gem 'sinatra'
+# talks to postgres
 gem 'pg'
-gem 'sinatra-activerecord'
+# converts model to json
 gem 'json'
+
+gem 'sinatra-activerecord'
