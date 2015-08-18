@@ -1,4 +1,4 @@
-CREATE DATABASE foodbanks;
+CREATE DATABASE food_banks;
 
 \c food_banks
 
